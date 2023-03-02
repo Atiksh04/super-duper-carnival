@@ -1,3 +1,3 @@
-## To tun this project do -
-npm install
-npm run dev
+## To run this project do -
+- npm install
+- npm run start
