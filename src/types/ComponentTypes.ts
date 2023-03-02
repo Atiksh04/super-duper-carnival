@@ -1,3 +1,4 @@
+// this includes types for every component
 export interface IconProp{
     icon: string,
     altText: string,
@@ -33,5 +34,5 @@ export interface ValueWrapperProp{
 }
 
 export interface PopularPairsProps{
-    currencies: string[]
+    tokens: string[]
 }

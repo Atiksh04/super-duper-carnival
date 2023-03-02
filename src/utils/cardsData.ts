@@ -5,6 +5,7 @@ import Ethereum from "../icons/etherum.svg";
 import Binance from "../icons/binance.svg";
 import Shiba from "../icons/shiba.svg";
 
+// static structured data for each card
 const CardsData:AssetCardProp[] = [
     {
         assetIcon: Bitcoin,

@@ -6,9 +6,7 @@ import AssetCard from '../components/AssetCards';
 import CardsData from '../utils/cardsData';
 
 const HomePage: FC = ()=>{
-
-    // const variation = {value: 10, increaseOrDecrease: "inc"}
-    // const pp = [Solana, Ethereum, Binance]
+    // redering cards
     return(
         <div className='w-screen h-screen bg-[#14172B] text-white px-20'>
             <div className='flex items-center justify-center flex-col  my-auto h-full'>

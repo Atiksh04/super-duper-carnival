@@ -6,6 +6,7 @@ import Text from "./Text";
 const ValueWrapper:FC<ValueWrapperProp>= (props) => {
 
     const getCurrentVariationText = () => {
+        // returning correct value based on price increase or decrease
         return `${props.variation?.increaseOrDecrease === 'inc' ? '+' : '-' }${props.variation?.value}%`;
     }
 
