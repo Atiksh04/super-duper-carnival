@@ -14,7 +14,7 @@ const ValueWrapper:FC<ValueWrapperProp>= (props) => {
             <Text text={props.currentPrice}/>
             {
                 props.variation ? 
-                    <Text text={getCurrentVariationText()} innerClass={props.variation?.increaseOrDecrease === 'inc' ? 'text-[#00FFA3] text-xs absolute right-9' : 'text-[#FF4D4D] text-xs absolute right-9'}/>
+                    <Text text={getCurrentVariationText()} innerClass={props.variation?.increaseOrDecrease === 'inc' ? 'text-[#00FFA3] text-xs absolute right-10' : 'text-[#FF4D4D] text-xs absolute right-8'}/>
                 : null
             }
         </div>
